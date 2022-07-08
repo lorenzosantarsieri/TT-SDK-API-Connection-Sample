@@ -59,7 +59,6 @@ shortStopLoss = SE + dollarStop
 # ********
 
 def m_priceSubscription_FieldsUpdated(sender, e): 
-
     if e.Error is None:     
         now = datetime.datetime.now().time()
         obtainNetPosition()
