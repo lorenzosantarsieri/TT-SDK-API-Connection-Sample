@@ -56,7 +56,7 @@ LX = # insert here your long exit level
 longStopLoss = LE - dollarStop
 shortStopLoss = SE + dollarStop
 
-
+# ********
 
 def m_priceSubscription_FieldsUpdated(sender, e): 
 
